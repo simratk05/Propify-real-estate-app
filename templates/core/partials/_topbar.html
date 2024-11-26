@@ -1,0 +1,50 @@
+{% load static %} {% load i18n %}
+<!-- Top Bar -->
+<section id="top-bar" class="p-3">
+  <div class="container">
+    <div class="row">
+      <!-- Social Icons on the left -->
+      <div class="col-md-9">
+        <div class="social text-left">
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Chatbot Link on the right -->
+      <a
+        href="https://console.dialogflow.com/api-client/demo/embedded/3a6cf68d-c007-473c-9018-968af39a4a66"
+        style="
+          display: inline-block;
+          position: relative;
+          left: 230px;
+          padding: 10px 12px;
+          font-size: 16px;
+          font-weight: bold;
+          color: #fff;
+          background-color: #053a71;
+          border: none;
+          border-radius: 7px;
+          text-decoration: none;
+          transition: background-color 0.3s ease, transform 0.2s ease;
+        "
+        onmouseover="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';"
+        onmouseout="this.style.backgroundColor='#007bff'; this.style.transform='scale(1)';"
+        onmousedown="this.style.backgroundColor='#00408a'; this.style.transform='scale(1)';"
+        onmouseup="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';"
+      >
+        Chatbot
+      </a>
+    </div>
+  </div>
+</section>

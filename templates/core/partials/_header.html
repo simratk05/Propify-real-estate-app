@@ -1,0 +1,29 @@
+{% load static %}
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <meta name="description" content="{{ page_description }}" />
+  <meta name="author" content="Alicia Schonefeld." />
+  <title>Propify</title>
+  <link rel="canonical" href="{{ domain }}{{ request.path }}" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{% static 'css/all.css' %}" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" />
+  <!-- Custom -->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <!-- Lightbox -->
+  <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}" />
+
+  <!-- django translation flags -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{% static 'css/django-translation-flags.min.css' %}"
+  />
+</head>
