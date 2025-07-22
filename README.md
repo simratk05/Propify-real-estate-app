@@ -15,6 +15,23 @@ Tech Stack to be used
 ●	JS
 ●	BOOTSTRAP
 
+## Landing Page
+<img width="868" height="434" alt="image" src="https://github.com/user-attachments/assets/47e4049f-1177-41d7-991a-968ca271e032" />
+
+
+## Listings
+<img width="925" height="459" alt="image" src="https://github.com/user-attachments/assets/b42dcd6c-642b-4f14-91f7-25aa42a39091" />
+
+<img width="925" height="381" alt="image" src="https://github.com/user-attachments/assets/d95dd2d8-f0c0-4178-9cfb-98c906582517" />
+
+
+
+## Admin dashboard
+
+<img width="925" height="457" alt="image" src="https://github.com/user-attachments/assets/c239a0da-c6a3-46a4-aba7-2b12a0ba9198" />
+
+<img width="925" height="453" alt="image" src="https://github.com/user-attachments/assets/e1bde5be-862c-4a22-acd6-20a21532e3dc" />
+
 
 ## How to run this project
 
